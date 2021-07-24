@@ -5,3 +5,5 @@ npm init
 nom install express
 
 npm install nodemon -D
+
+npm run dev
