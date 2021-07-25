@@ -1,11 +1,12 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturDallagnelo/API-Node-Js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArturDallagnelo/API-Node-Js/issues"
+  },
+  "homepage": "https://github.com/ArturDallagnelo/API-Node-Js#readme"
 }
